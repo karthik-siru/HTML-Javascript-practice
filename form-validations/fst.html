@@ -1,1 +1,47 @@
+<!DOCTYPE html>
 
+<html>
+  <head>
+    <title> Home </title>
+    <script src = 'demo.js' type="text/javascript">
+    </script>
+
+    <style>
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .button
+    {
+       transition-duration: 0.4s;
+    }
+
+    .button:hover
+    {
+      background-color: black ; /* Green */
+      color: white;
+    }
+    </style>
+  </head>
+
+  <body>
+
+     <form onsubmit = "return validate()" action = "second.html">
+      <center>
+
+      <input  id = "usrname" type = "text"     placeholder="User name "></input> <br><br>
+      <input  id = "pswd"    type = "password" placeholder = "password"></input>
+      <br><br>
+      <button class = "button" style = "back" type = "submit" > Submit </button>
+    </center>
+    </form>
+  </body>
+
+</html>
