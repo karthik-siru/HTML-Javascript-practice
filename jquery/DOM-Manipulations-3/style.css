@@ -1,0 +1,41 @@
+*{
+  margin: 0px ;
+  padding : 0px ;
+}
+
+.prac{
+  padding : 20px ;
+  margin :10px ;
+  background-color : lightcyan ;
+  border : 4px solid darkblue ;
+}
+
+.newclass{
+  background-color : lightyellow ;
+  color : black ;
+  border : 5px dashed darkblue ;
+}
+
+.secondnewclass{
+  font-size : 36px ;
+  color : red ; 
+}
+
+.text{
+  padding: 10px ;
+  margin :10px ;
+}
+
+.button{
+
+  margin:20px ;
+  padding: 6px ;
+  border-radius: 6px ;
+  background-color: lightyellow;
+  outline : none ;
+}
+
+.button:hover{
+  background-color :black ;
+  color : lightyellow;
+}
