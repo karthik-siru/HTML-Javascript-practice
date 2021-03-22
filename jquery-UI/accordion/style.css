@@ -1,0 +1,26 @@
+*{
+  margin: 0px ;
+  padding : 0px ;
+}
+
+.mydiv{
+  padding : 10px ;
+  margin :20px ;
+  border: 4px solid rebeccapurple ;
+}
+
+#heading{
+  background-color: blue ;
+  padding : 10px ;
+  margin : 10px auto 10px auto ;
+  color : white ;
+}
+
+img{
+  padding : 10px ;
+  border : 4px lightgreen solid ;
+}
+
+#myinput{
+  outline : none ;
+}
