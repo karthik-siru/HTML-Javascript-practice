@@ -1,0 +1,23 @@
+body{
+  margin: 0px ;
+  padding : 0px ;
+}
+
+.cubes-container{
+  marging : 20px ;
+  padding : 10px ;
+}
+
+.cube{
+  height : 100px ;
+  width  : 100px ;
+  background-color: rebeccapurple ;
+  border : 4px solid black ;
+  margin : 10px ;
+  display: inline-block;
+}
+
+.text{
+   font-size: 30px ;
+   color : white ;
+}
